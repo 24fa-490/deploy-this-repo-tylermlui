@@ -2,11 +2,11 @@
 	export let container;
 </script>
 
-<div class="row">
-	<div class="id">{container.containerNumber}</div>
-	<div class="shipname">{container.nameOfShip}</div>
-	<div class="date">{container.dateContainerShipped}</div>
-	<div class="size">{container.containerSize}</div>
+<div>
+    <p><strong>Container Number:</strong> {container.containernumber}</p>
+    <p><strong>Ship Name:</strong> {container.nameofship}</p>
+    <p><strong>Container Size:</strong> {container.containersize}</p>
+    <p><strong>Date Shipped:</strong> {container.datecontainershipped}</p>
 </div>
 
 <style>
