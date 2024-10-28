@@ -2,6 +2,8 @@
 
 ## uses 'postgres' npm package
 
+## running on https://deploy-this-repo-tylermlui-4b6x81eui-tyler-luis-projects.vercel.app/
+
 # running:
 
 1. git clone this
