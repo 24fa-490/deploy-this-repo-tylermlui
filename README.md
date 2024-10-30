@@ -25,7 +25,5 @@
 *Comments and feedback welcome!*
 
 # Where am I deployed?
-
-<enter your URL here>
-
+https://deploy-this-repo-tylermlui.vercel.app/
 

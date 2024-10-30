@@ -2,12 +2,12 @@
 	import ContainerTable from '$lib/ContainerTable.svelte';
 	export let data;
 
-	let clickedContainerNumber = "none"
+	let clickedContainerNumber = "none";
 
 	function containerClicked(container) {
-		console.log('Container clicked:', container.containerNumber);
+		console.log('Container clicked:', container.containernumber);
 		if (container) {
-			clickedContainerNumber = container.containerNumber
+			clickedContainerNumber = container.containernumber;
 		}
 	}
 </script>
@@ -16,4 +16,4 @@
 
 <ContainerTable containers={data.containers} onContainerClicked={containerClicked} />
 
-<span class=i>Last container clicked: {clickedContainerNumber}</span>
+<span class="i">Last container clicked: {clickedContainerNumber}</span>
