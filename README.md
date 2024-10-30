@@ -2,8 +2,6 @@
 
 ## uses 'postgres' npm package
 
-## Deployment URL:[ https://deploy-this-repo-tylermlui-4b6x81eui-tyler-luis-projects.vercel.app/](https://deploy-this-repo-tylermlui.vercel.app/)
-
 # running:
 
 1. git clone this
@@ -27,7 +25,5 @@
 *Comments and feedback welcome!*
 
 # Where am I deployed?
-
-<enter your URL here>
-
+https://deploy-this-repo-tylermlui.vercel.app/
 
